@@ -1,16 +1,107 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    min-height: 50vh;
+    font-family: "Comic Sans" sans-serif;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+    flex-direction: column;
+    font-size: 18px;
+  }
+.header {
+    background-color: #e6c477;
+  }
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .section-avatar {
+    width: 300px;
+    height: 300px;
+         }
+  .menu-list {
+    display: inline;
+    align-items: center;
+    list-style: none;
+  }
+  .menu-link {
+    padding: 0 20px;
+    line-height: 39px;
+    color: #05999c;
+    text-transform: small-caps;
+    text-decoration: none;
+  }
+.avatar {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: flex-start;
+    align-items: center;
 }
-table {
-    border-collapse: collapse;
+.intro {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #e6c477;
+    border-bottom: 3px solid #e6c477;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+.main {
+    margin-bottom: auto;
+    background-color: #05999c;
 }
-table.border th {
-    background: #e0e0e0;
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 25.4px;
+}
+.section {
+    color: #e6c477;
+    border-bottom: 3px solid #e6c477;
+}
+.section a {
+    text-decoration: none;
+}
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer {
+    background-color: #e6c477;
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    font-size: 20px;
+    color:black;
+    font-weight: 500;
+    max-width: 1200px;
+}
+.rss-logo {
+    width: 125px;
+    height: 50px;
+    background-image: url("/rsschool-cv/img/rss-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gh-logo {
+    width: 50px;
+    height: 50px;
+    background-image: url("/rsschool-cv/img/gh-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
